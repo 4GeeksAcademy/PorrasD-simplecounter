@@ -3,7 +3,7 @@ import { Spinner } from 'react-bootstrap';
 import { Button, Container, Row, Col, Card } from 'react-bootstrap';
 import { FaRedo } from 'react-icons/fa';
 
-const Counter = () => {
+const SecondsCounter = () => {
   const [count, setCount] = useState(0);
   const [isActive, setIsActive] = useState(false);
 
@@ -88,4 +88,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default SecondsCounter;
